@@ -1,29 +1,7 @@
-/*
-
-Sample Twitter Bot, using Wordnik (based on code by I. Bogost)
-
-NOTE: this script requires the Node.js modules inflection, request, wordfilter, and twit
-
-*/
+\
 
 // DEBUG
-var debug = false;		// if we don't want it to post to Twitter! Useful for debugging!
-
-/* Wordnik stuff
-var WordnikAPIKey = 'YOUR WORDNIK API KEY HERE';
-
-var request = require('request');
-var inflection = require('inflection');
-var pluralize = inflection.pluralize;
-var capitalize = inflection.capitalize;
-var singularize = inflection.singularize;
-var pre;	// store prebuilt strings here.
-
-// Blacklist*/
-
-
-// Twitter Essentials
-// Twitter Library
+var debug = false;		
 
 // Include configuration file
 
